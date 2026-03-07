@@ -1339,7 +1339,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "https://jx.ariesc.cn/api/?key=5492ed58fc338bfd09a9907954b053fd&url=" + input.split("?")[0];
+            let api = "https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
@@ -1387,7 +1387,8 @@ var rule = {
     }),
     // play_parse:true,
     // 手动调用解析请求json的url,此lazy不方便
-    // lazy:'js:input="https://cache.json.icu/home/api?type=ys&uid=292796&key=fnoryABDEFJNPQV269&url="+input.split("?")[0];log(input);let html=JSON.parse(request(input));log(html);input=html.url||input',
+    // lazy:'js:input="https://cache.json.icu/home/api?type=ys&uid=292796&key=fnoryABDEFJNPQV269&
+"+input.split("?")[0];log(input);let html=JSON.parse(request(input));log(html);input=html.url||input',
     // 推荐:'.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     // 一级:'json:.data.list;.name;.imageUrl;.latestOrder;.albumId',
     推荐: '',
