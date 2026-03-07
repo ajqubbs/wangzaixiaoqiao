@@ -702,7 +702,6 @@ var rule = {
                 }
             });
 
-
             let bata = JSON.parse(response);
             log(bata)
             if (bata.url.includes("qq")) {
