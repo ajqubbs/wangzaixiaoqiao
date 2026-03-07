@@ -933,4 +933,3 @@ var rule = {
         setResult(d);
     })
 }
-
