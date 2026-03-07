@@ -672,7 +672,6 @@ var rule = {
                     'User-Agent': 'okhttp/3.14.9',
                     'Content-Type': 'application/x-www-form-urlencoded'
                 }
-
             });
             let bata = JSON.parse(response);
             if (bata.url.includes("mgtv")) {
