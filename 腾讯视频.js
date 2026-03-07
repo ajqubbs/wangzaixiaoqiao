@@ -692,7 +692,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=" + input.split("?")[0];
+            let api = "http://140.210.9.53:8100/api/?key=e70b5af2f33f0063adad1e4693f5b9ff&url=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
@@ -748,4 +748,188 @@ var rule = {
         let list = [];
         let QZOutputJson;
         let html = fetch(input, fetch_params);
-        let sourceId = /get_playsource/.test(input) ? input.match(/id=(\d*?)
+        let sourceId = /get_playsource/.test(input) ? input.match(/id=(\d*?)&/)[1] : input.split("cid=")[1];
+        let cid = sourceId;
+        let detailUrl = "https://v.%71%71.com/detail/m/" + cid + ".html";
+        log("详情页:" + detailUrl);
+        pdfh = jsp.pdfh;
+        pd = jsp.pd;
+        try {
+            let json = JSON.parse(html);
+            VOD = {
+                vod_url: input,
+                vod_name: json.c.title,
+                type_name: json.typ.join(","),
+                vod_actor: json.nam.join(","),
+                vod_year: json.c.year,
+                vod_content: json.c.description,
+                vod_remarks: json.rec,
+                vod_pic: urljoin2(input, json.c.pic)
+            }
+        } catch (e) {
+            log("解析片名海报等基础信息发生错误:" + e.message)
+        }
+        if (/get_playsource/.test(input)) {
+            eval(html);
+            let indexList = QZOutputJson.PlaylistItem.indexList;
+            indexList.forEach(function(it) {
+                let dataUrl = "https://s.video.qq.com/get_playsource?id=" + sourceId + "&plat=2&type=4&data_type=3&range=" + it + "&video_type=10&plname=qq&otype=json";
+                eval(fetch(dataUrl, fetch_params));
+                let vdata = QZOutputJson.PlaylistItem.videoPlayList;
+                vdata.forEach(function(item) {
+                    d.push({
+                        title: item.title,
+                        pic_url: item.pic,
+                        desc: item.episode_number + "\t\t\t播放量：" + item.thirdLine,
+                        url: item.playUrl
+                    })
+                });
+                video_lists = video_lists.concat(vdata)
+            })
+        } else {
+            let json = JSON.parse(html);
+            video_lists = json.c.video_ids;
+            let url = "https://v.qq.com/x/cover/" + sourceId + ".html";
+            if (video_lists.length === 1) {
+                let vid = video_lists[0];
+                url = "https://v.qq.com/x/cover/" + cid + "/" + vid + ".html";
+                d.push({
+                    title: "在线播放",
+                    url: url
+                })
+            } else if (video_lists.length > 1) {
+                for (let i = 0; i < video_lists.length; i += 30) {
+                    video_list.push(video_lists.slice(i, i + 30))
+                }
+                video_list.forEach(function(it, idex) {
+                    let o_url = "https://union.video.qq.com/fcgi-bin/data?otype=json&tid=1804&appid=20001238&appkey=6c03bbe9658448a4&union_platform=1&idlist=" + it.join(",");
+                    let o_html = fetch(o_url, fetch_params);
+                    eval(o_html);
+                    QZOutputJson.results.forEach(function(it1) {
+                        it1 = it1.fields;
+                        let url = "https://v.qq.com/x/cover/" + cid + "/" + it1.vid + ".html";
+                        d.push({
+                            title: it1.title,
+                            pic_url: it1.pic160x90.replace("/160", ""),
+                            desc: it1.video_checkup_time,
+                            url: url,
+                            type: it1.category_map && it1.category_map.length > 1 ? it1.category_map[1] : ""
+                        })
+                    })
+                })
+            }
+        }
+        let yg = d.filter(function(it) {
+            return it.type && it.type !== "正片"
+        });
+        let zp = d.filter(function(it) {
+            return !(it.type && it.type !== "正片")
+        });
+        VOD.vod_play_from = yg.length < 1 ? "qq" : "qq$$$qq 预告及花絮";
+        VOD.vod_play_url = yg.length < 1 ? d.map(function(it) {
+            return it.title + "$" + it.url
+        }).join("#") : [zp, yg].map(function(it) {
+            return it.map(function(its) {
+                return its.title + "$" + its.url
+            }).join("#")
+        }).join("$$$");
+    }),
+    搜索: $js.toString(() => {
+        let d = [];
+        pdfa = jsp.pdfa;
+        pdfh = jsp.pdfh;
+        pd = jsp.pd;
+        let html = request(input);
+        let baseList = pdfa(html, "body&&.result_item_v");
+        log(baseList.length);
+        baseList.forEach(function(it) {
+            let longText = pdfh(it, ".result_title&&a&&Text");
+            let shortText = pdfh(it, ".type&&Text");
+            let fromTag = pdfh(it, ".result_source&&Text");
+            let score = pdfh(it, ".figure_info&&Text");
+            let content = pdfh(it, ".desc_text&&Text");
+            // let url = pdfh(it, ".result_title&&a&&href");
+            let url = pdfh(it, "div&&r-data");
+            // log(longText);
+            // log(shortText);
+            // log('url:'+url);
+            let img = pd(it, ".figure_pic&&src");
+            url = "https://node.video.qq.com/x/api/float_vinfo2?cid=" + url.match(/.*\/(.*?)\.html/)[1];
+            log(shortText + "|" + url);
+            if (fromTag.match(/腾讯/)) {
+                d.push({
+                    title: longText.split(shortText)[0],
+                    img: img,
+                    url: url,
+                    content: content,
+                    desc: shortText + " " + score
+                })
+            }
+        });
+        setResult(d);
+    }),
+    搜索: $js.toString(() => {
+        let d = [];
+        let html = request(input);
+        let json = JSON.parse(html);
+        if (json.data.smartboxItemList.length > 0) {
+            let cid = json.data.smartboxItemList[0].basicDoc.id;
+            let url = 'https://node.video.qq.com/x/api/float_vinfo2?cid=' + cid;
+            let html1 = request(url);
+            let data = JSON.parse(html1);
+
+            d.push({
+                title: data.c.title,
+                img: data.c.pic,
+                url: url,
+                content: data.c.description,
+                desc: data.rec
+            });
+        }
+        setResult(d);
+    }),
+    搜索: $js.toString(() => {
+        let d = [];
+        let mame = (input.split("/")[3]);
+        let html = vod1(input.split("/")[3]);
+        let json = JSON.parse(html);
+
+        let list = json.data.normalList.itemList;
+        console.log(json);
+        log(list[0].videoInfo.title);
+        list.forEach(function(it) {
+            try {
+                if (it.doc.id.length > 11) {
+                    d.push({
+                        title: it.videoInfo.title,
+                        img: it.videoInfo.imgUrl,
+                        url: it.doc.id,
+                        // content: "",
+                        //desc: "data.rec"
+                    });
+                }
+            } catch {
+
+            }
+
+        });
+        let list2 = json.data.areaBoxList[0].itemList;
+        list2.forEach(function(it) {
+            try {
+                if (it.doc.id.length > 11 && it.videoInfo.title.match(mame)) {
+                    d.push({
+                        title: it.videoInfo.title,
+                        img: it.videoInfo.imgUrl,
+                        url: it.doc.id,
+                        // content: "",
+                        //desc: "data.rec"
+                    });
+                }
+            } catch {
+
+            }
+
+        });
+        setResult(d);
+    })
+}
