@@ -692,7 +692,7 @@ var rule = {
     play_parse: true,
     lazy: $js.toString(() => {
         try {
-            let api = "https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=" + input.split("?")[0];
+            let api = "https://yh.ggtvb.cc/api/?key=46075425767f4dcb3d7e53eb4b551ea1&url=" + input.split("?")[0];
             console.log(api);
             let response = fetch(api, {
                 method: 'get',
@@ -700,7 +700,6 @@ var rule = {
                     'User-Agent': 'okhttp/3.14.9',
                     'Content-Type': 'application/x-www-form-urlencoded'
                 }
-
             });
 
             let bata = JSON.parse(response);
