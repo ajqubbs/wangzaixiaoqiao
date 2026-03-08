@@ -343,15 +343,37 @@
   "flags": [],
   
   
-     "parses": [{
-        "name": "VIP①线",
-        "url": "https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=",
-        "ext": "ew0KICAgICJmbGFnIjogWw0KICAgICAgICAicXEiLA0KICAgICAgICAi6IW+6K6vIiwNCiAgICAgICAgInFpeWkiLA0KICAgICAgICAi54ix5aWH6Im6IiwNCiAgICAgICAgIuWlh+iJuiIsDQogICAgICAgICJ5b3VrdSIsDQogICAgICAgICLkvJjphbciLA0KICAgICAgICAibWd0diIsDQogICAgICAgICLoipLmnpwiLA0KICAgICAgICAiaW1nbyIsDQogICAgICAgICJsZXR2IiwNCiAgICAgICAgIuS5kOinhiIsDQogICAgICAgICJwcHR2IiwNCiAgICAgICAgIlBQVFYiLA0KICAgICAgICAic29odSIsDQogICAgICAgICJiaWxpYmlsaSIsDQogICAgICAgICLlk5Tlk6nlk5Tlk6kiLA0KICAgICAgICAi5ZOU5ZOpIg0KICAgIF0sDQogICAgImhlYWRlciI6IHsNCiAgICAgICAgIlVzZXItQWdlbnQiOiAib2todHRwLzQuMS4wIg0KICAgIH0NCn0=",
-        "type": "1",
-        "status": "normal",
-        "type_text": "Type 1",
-        "status_text": "正常"
-      }],
+     "parses": [
+    {
+      "name": "4k解析",
+      "type": "1",
+      "url": "https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
+    }
+  ],
+
 
        
        
