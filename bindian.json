@@ -344,43 +344,14 @@
   "parses": [{
             "name": "皮皮虾4k",
             "type": "1",
-            "url":"http://jiexi.52ppx.top/lxjson.php?url=",
+            "url":"https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=",
             "ext": {
                 "flag": [
                     "PPXLG",
                     "皮皮虾4K"
                 ]
-            }},
+            }],
        
-{
-    "name": "爱腾优芒",
-    "type": "1",
-    "url":"https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=",
-    "ext": {
-        "flag": [
-            "qq",
-            "腾讯",
-            "qiyi",
-            "爱奇艺",
-            "奇艺",
-            "youku",
-            "优酷",
-            "sohu",
-            "搜狐",
-            "letv",
-            "乐视",
-            "mgtv",
-            "芒果",
-            "tnmb",
-            "seven",
-            "bilibili",
-            "1905"
-        ],
-        "header": {
-            "User-Agent": "okhttp/4.9.1"
-        }
-    }
-}],
        
   "ijk": [
     {
