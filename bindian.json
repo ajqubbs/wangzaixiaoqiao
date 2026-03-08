@@ -33,7 +33,40 @@
             "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
         },
-        
+        {
+      "key": "🔱jianan腾🏅",
+      "name": "🔰冰点┃自建腾讯",
+      "type": 1,
+      "api": "https://www.caiji.cyou/api.php/provide/vod/from/qq/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "categories": [
+        "国产剧",
+        "日韩剧",
+        "欧美剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "惊悚片",
+        "剧情片",
+        "犯罪片",
+        "战争片",
+        "悬疑片",
+        "武侠片",
+        "奇幻片",
+        "bilibili番剧",
+        "bilibili国创",
+        "bilibili电影",
+        "bilibili电视剧",
+        "动画片"
+      ]
+    },
 {
       "key": "小羊K",
       "name": "🔰冰点┃小羊",
