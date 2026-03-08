@@ -341,7 +341,35 @@
     }
   ],
   "flags": [],
-  "parses": [{"name":"无名3","url":"https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=","type":0,"ext":"ew0KICAgICJmbGFnIjogWw0KICAgICAgICAicXEiLA0KICAgICAgICAi6IW+6K6vIiwNCiAgICAgICAgInFpeWkiLA0KICAgICAgICAi54ix5aWH6Im6IiwNCiAgICAgICAgIuWlh+iJuiIsDQogICAgICAgICJ5b3VrdSIsDQogICAgICAgICLkvJjphbciLA0KICAgICAgICAibWd0diIsDQogICAgICAgICLoipLmnpwiLA0KICAgICAgICAiaW1nbyIsDQogICAgICAgICJsZXR2IiwNCiAgICAgICAgIuS5kOinhiIsDQogICAgICAgICJwcHR2IiwNCiAgICAgICAgIlBQVFYiLA0KICAgICAgICAic29odSIsDQogICAgICAgICJiaWxpYmlsaSIsDQogICAgICAgICLlk5Tlk6nlk5Tlk6kiLA0KICAgICAgICAi5ZOU5ZOpIg0KICAgIF0sDQogICAgImhlYWRlciI6IHsNCiAgICAgICAgIlVzZXItQWdlbnQiOiAib2todHRwLzQuMS4wIg0KICAgIH0NCn0="}],
+  "parses": [{
+            "name": "爱腾优芒",
+            "type": "1",
+            "url": "https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },           
        
   "ijk": [
     {
