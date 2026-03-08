@@ -341,26 +341,7 @@
     }
   ],
   "flags": [],
-  "parses": [ {"name":"冰极速","url":"https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=","type":0,"ext":{"flag":[
-        "qq",
-        "爱奇艺",
-        "qiyi",
-        "腾讯",
-        "优酷",
-        "youku",
-        "芒果",
-        "mgtv",
-        "乐视",
-        "imgo",
-        "letv",
-        "搜狐",
-        "pptv",
-        "PPTV",
-        "sohu",
-        "bilibili",
-        "哔哩哔哩",
-        "哔哩"
-    ],"header":{"User-Agent":"okhttp/4.1.0"}}],
+  "parses": [{"name":"无名3","url":"https://play.fositv.com/?url=","type":0,"ext":{"flag":["qiyi","imgo","爱奇艺","奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","leshi","bilibili","哔哩哔哩","哔哩","mgtv","芒果","sohu","xigua","fun","风行"],"header":{"User-Agent":"Mozilla/5.0"}}}],
        
   "ijk": [
     {
