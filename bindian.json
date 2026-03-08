@@ -369,11 +369,7 @@
         "User-Agent": "okhttp/4.1.0"
     }
 },
-        "type": "1",
-        "status": "normal",
-        "type_text": "Type 1",
-        "status_text": "正常"
-      }],
+       
   "ijk": [
     {
       "group": "软解码",
