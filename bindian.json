@@ -344,7 +344,7 @@
   "parses": [{
             "name": "皮皮虾4k",
             "type": "1",
-            "url": "http://jiexi.52ppx.top/lxjson.php?url=",
+            "url":"http://jiexi.52ppx.top/lxjson.php?url=",
             "ext": {
                 "flag": [
                     "PPXLG",
@@ -355,7 +355,7 @@
 {
     "name": "爱腾优芒",
     "type": "1",
-    "url": "https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=",
+    "url":"https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=",
     "ext": {
         "flag": [
             "qq",
