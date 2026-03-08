@@ -12,41 +12,7 @@
       "filterable": 1,
       "ext": "http://111.170.58.23:802/api.php/app/"
     },
-    {
-      "key": "腾讯视频",
-      "name": "腾讯🥇4K",
-      "type": 3,
-      "api": "http://111.170.58.23:66/lib/drpy2.min.js",
-      "ext": "https://tvv.tw/https://raw.githubusercontent.com/ajqubbs/wangzaixiaoqiao/main/腾讯视频.js"
-    },
-    {
-      "key": "芒果视频",
-      "name": "芒果🥇4K",
-      "type": 3,
-      "api": "http://111.170.58.23:66/lib/drpy2.min.js",
-      "ext": "https://tvv.tw/https://raw.githubusercontent.com/ajqubbs/wangzaixiaoqiao/main/芒果视频.js"
-    },
-    {
-      "key": "hipy_js_优酷[官]",
-      "name": "优酷(弹)",
-      "type": 3,
-      "api": "http://210.16.170.84:8866/apia/zjys9/drpy_libs/drpy2.min.js",
-      "ext": "https://app.69mini.com/lib1/youku.js"
-    },
-    {
-      "key": "哔哩哔哩",
-      "name": "哔哩🥇4K",
-      "type": 3,
-      "api": "http://111.170.58.23:66/lib/drpy2.min.js",
-      "ext": "http://111.170.58.23:66/lib/哔哩哔哩.js"
-    },
-    {
-      "key": "爱奇艺",
-      "name": "爱奇艺🥇2K",
-      "type": 3,
-      "api": "http://111.170.58.23:66/lib/drpy2.min.js",
-      "ext": "https://tvv.tw/https://raw.githubusercontent.com/ajqubbs/wangzaixiaoqiao/main/爱奇艺.js"
-    },
+    
         {
             "key": "天天",
             "name": "🧿┃天天┃秒播",
@@ -68,6 +34,272 @@
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
         },
         
+{
+      "key": "小羊K",
+      "name": "🔰冰点┃小羊",
+      "jar": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/866ae8c45eebb30b/vox.jar",
+      "type": 3,
+      "api": "csp_AppGet",
+      "ext": {
+        "host": "https://xy4k.com/url.txt",
+        "datakey": "7SDWjknU34zqFbVr"
+      }
+    },
+    {
+      "key": "csp_SaoHuo",
+      "name": "🔰冰点┃火火",
+      "type": 3,
+      "jar": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/54f9b949e1ebbcf7/猫.jar",
+      "api": "csp_SaoHuo",
+      "playerType": 2,
+      "ext": "https://shdy5.us"
+    },
+    {
+      "key": "农民",
+      "name": "🔰自建|农民秒播",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://wp.kayyw.com/f/EbEgf0/ok%E4%BA%86.jar",
+      "ext": {
+        "副标题": "334",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://vip.wwgz.cn:5200/;;!H"
+      }
+    },
+    {
+      "key": "热播影视",
+      "name": "🔰热播┃影视",
+      "jar": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c9ead055fd9273a3/热播跟肥6.jar",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    {
+      "key": "🔱jianan芒🏅",
+      "name": "🔰冰点┃自建芒果",
+      "type": 1,
+      "api": "https://www.caiji.cyou/api.php/provide/vod/from/mgtv/at/json/",
+      "ext": "http://nn.4688888.xyz/js/芒果视频.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "categories": [
+        "国产剧",
+        "日韩剧",
+        "欧美剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "惊悚片",
+        "剧情片",
+        "犯罪片",
+        "战争片",
+        "悬疑片",
+        "武侠片",
+        "奇幻片",
+        "bilibili番剧",
+        "bilibili国创",
+        "bilibili电影",
+        "bilibili电视剧",
+        "动画片"
+      ]
+    },
+    {
+      "key": "🔱jianan腾🏅",
+      "name": "🔰冰点┃自建腾讯",
+      "type": 1,
+      "api": "https://www.caiji.cyou/api.php/provide/vod/from/qq/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "categories": [
+        "国产剧",
+        "日韩剧",
+        "欧美剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "惊悚片",
+        "剧情片",
+        "犯罪片",
+        "战争片",
+        "悬疑片",
+        "武侠片",
+        "奇幻片",
+        "bilibili番剧",
+        "bilibili国创",
+        "bilibili电影",
+        "bilibili电视剧",
+        "动画片"
+      ]
+    },
+    {
+      "key": "🔱jianan优酷🏅",
+      "name": "🔰冰点┃自建优酷",
+      "type": 1,
+      "api": "https://www.caiji.cyou/api.php/provide/vod/from/youku/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "categories": [
+        "国产剧",
+        "日韩剧",
+        "欧美剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "惊悚片",
+        "剧情片",
+        "犯罪片",
+        "战争片",
+        "悬疑片",
+        "武侠片",
+        "奇幻片",
+        "bilibili番剧",
+        "bilibili国创",
+        "bilibili电影",
+        "bilibili电视剧",
+        "动画片"
+      ]
+    },
+    {
+      "key": "🔱jiananqiyi🏅",
+      "name": "🔰冰点┃自建奇异",
+      "type": 1,
+      "api": "https://www.caiji.cyou/api.php/provide/vod/from/qiyi/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "categories": [
+        "国产剧",
+        "日韩剧",
+        "欧美剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "惊悚片",
+        "剧情片",
+        "犯罪片",
+        "战争片",
+        "悬疑片",
+        "武侠片",
+        "奇幻片",
+        "bilibili番剧",
+        "bilibili国创",
+        "bilibili电影",
+        "bilibili电视剧",
+        "动画片"
+      ]
+    },
+    {
+      "key": "🔱jiananbili🏅",
+      "name": "🔰冰点┃自建bili",
+      "type": 1,
+      "api": "https://www.caiji.cyou/api.php/provide/vod/from/qiyi/at/json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "categories": [
+        "国产剧",
+        "日韩剧",
+        "欧美剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "惊悚片",
+        "剧情片",
+        "犯罪片",
+        "战争片",
+        "悬疑片",
+        "武侠片",
+        "奇幻片",
+        "bilibili番剧",
+        "bilibili国创",
+        "bilibili电影",
+        "bilibili电视剧",
+        "动画片"
+      ]
+    },
+    {
+      "key": "py_官方采集789",
+      "name": "🔰冰点｜自建聚合",
+      "type": 4,
+      "api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63"
+    },
+    {
+      "key": "芒guo",
+      "name": "🔰冰点｜果果弹幕版",
+      "type": 3,
+      "api": "https://12134.kstore.space/drpy2.min.js",
+      "ext": "https://12134.kstore.space/%E8%8A%92%E6%9E%9C%E8%A7%86%E9%A2%91.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "搜影视",
+      "name": "🔰自建|凡汐秒播",
+      "type": 3,
+      "api": "https://12134.kstore.space/%E7%95%AA%E5%96%9C.py",
+      "ext": "http://118.89.203.120:8365/"
+    },
+{
+      "key": "人人影视",
+      "name": "🔰自建｜人人4K",
+      "type": 3,
+      "api": "https://12134.kstore.space/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "py_新韩剧网",
+      "name": "🔰冰点｜韩剧",
+      "type": 4,
+      "api": "https://py.doube.eu.org/v2/spider?site=2a7cc0edf96108c9d57420ff57c654c6"
+    },
+    {
+      "key": "csp_Guazi",
+      "name": "🔰自建｜瓜子",
+      "type": 3,
+      "jar": "https://12134.kstore.space/vox.jar",
+      "api": "csp_Guazi",
+      "searchable": 1,
+      "changeable": 1
+    },
         {
             "key": "nangua",
             "name": "🎃┃南瓜┃秒播",
@@ -90,156 +322,8 @@
     },
 
 
-    {
-      "key": "csp_Gz360",
-      "name": "🍓驿站晓米┃2K①",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "csp_Gz360"
-    },
-    {
-      "key": "金牌影视",
-      "name": "🍓驿站晓米┃2K②",
-      "type": 3,
-      "jar": "http://111.170.58.23:66/lib/xs.png",
-      "api": "csp_Jpys",
-      "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-    },
-    {
-      "key": "步步",
-      "name": "👟步步┃影视",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "http://111.170.58.23:66/lib/drpy2.min.js",
-      "ext": "http://111.170.58.23:66/lib/ceshi.js"
-    },
-    {
-      "key": "金牌PY",
-      "name": "🍓驿站晓米┃2K③",
-      "type": 3,
-      "api": "http://111.170.58.23:66/py/JPYS.py",
-      "style": {
-        "type": "rect",
-        "ratio": 1.567
-      },
-      "ext": {
-        "site": "https://m.fjvtw.com,https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com,https://m.hhduc.com,https://www.hellorlgzf7sn.com"
-      }
-    },
-    {
-      "key": "csp_LiteApple",
-      "name": "🍓驿站晓米┃2K⑤",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "api": "csp_LiteApple"
-    },
-    {
-      "key": "星芽短剧",
-      "name": "☘️｜星芽｜短剧PY",
-      "type": 3,
-      "api": "https://gitee.com/zhikews/zhikews/raw/master/py/XYDJ.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "vod_type": "short",
-      "filterable": 1
-    },
-    {
-      "key": "稀饭动漫",
-      "name": "☘️稀饭｜动漫",
-      "type": 3,
-      "jar": "http://111.170.58.23:66/lib/xs.png",
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "https://xfapp-1305390065.cos.ap-guangzhou.myqcloud.com/getapp.txt",
-        "dataKey": "1yZ2Spn9krnzVKoC",
-        "dataIv": "1yZ2Spn9krnzVKoC",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
-      "key": "咕咕动漫",
-      "name": "☘️咕咕｜动漫",
-      "type": 3,
-      "jar": "http://111.170.58.23:66/lib/xs.png",
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://www.gugu3.com",
-        "dataKey": "nKfZ8KX6JTNWRzTD",
-        "dataIv": "nKfZ8KX6JTNWRzTD",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
-      "key": "Bili2",
-      "name": "👧｜宝宝｜趣学",
-      "type": 3,
-      "api": "csp_Bili2",
-      "searchable": 0,
-      "jar": "http://111.170.58.23:66/lib/qx.jar",
-      "ext": "http://111.170.58.23:66/lib/video_data.json"
-    },
-    {
-      "key": "88看球",
-      "name": "🏀｜球赛｜直播",
-      "type": 3,
-      "api": "http://111.170.58.23:66/lib/drpy3.min.js",
-      "style": {
-        "type": "list"
-      },
-      "ext": "http://111.170.58.23:66/lib/88看球.js"
-    },
-    {
-      "key": "百科",
-      "name": "📚｜百科｜全书",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "http://111.170.58.23:66/lib/百科和地理.jar",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://111.170.58.23:66/lib/百科.js"
-    },
-    {
-      "key": "地理",
-      "name": "🌍｜全球｜地理",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "http://111.170.58.23:66/lib/百科和地理.jar",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://111.170.58.23:66/lib/地理.js"
-    },
-    {
-      "key": "相声小品",
-      "name": "🛎｜相声｜小品",
-      "type": 3,
-      "api": "csp_Bili",
-      "jar": "http://111.170.58.23:66/lib/百科和地理.jar",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://111.170.58.23:66/lib/相声小品.js"
-    },
-    {
-      "key": "梨园",
-      "name": "🎭｜戏曲｜梨园",
-      "type": 3,
-      "api": "http://111.170.58.23:66/lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://image-c.weimobwmc.com/ol-OlSf/983ec95b8248461cad620063864b21cd.jpg"
-    },
+    
+    
     {
       "key": "急救教学",
       "name": "🏥｜急救｜教学",
