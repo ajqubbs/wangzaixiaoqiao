@@ -48,6 +48,7 @@
       "jar": "http://yp2.mftv.top/zz4k666.jar",
       "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliR0ZpYVNNakkyeGhZbWs9"
     },
+
     {
       "key": "shayang",
       "name": "🌟备用|4K③",
@@ -106,6 +107,18 @@
         "动漫"
       ]
     },
+
+        {
+            "key": "天天",
+            "name": "🧿┃天天┃秒播",
+            "type": 3,
+            "api": "csp_TTian",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+            "ext": "7lj763gg0939791h1l3888jig44gi291li"
+        },
     {
       "key": "金牌影视",
       "name": "💡金牌｜影视",
