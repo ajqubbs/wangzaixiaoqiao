@@ -11,7 +11,7 @@
       "searchable": 0
     },
     {
-      "key": "腾讯",
+      "key": "tx",
       "name": "🐱独家┃4K",
       "type": 3,
       "searchable": 1,
@@ -38,7 +38,7 @@
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTlhSFZpWVc0akl5Tm9kV0poYmc9PQ=="
+      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMW9kV0poYmlNakkyaDFZbUZ1"
     },
     {
       "key": "labi",
@@ -46,16 +46,15 @@
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliR0ZpYVNNakkyeGhZbWs9"
+      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
     },
-
     {
       "key": "shayang",
       "name": "🌟备用|4K③",
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTljMmhoZVdGdVp5TWpJM05vWVhsaGJtYz0="
+      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXphR0Y1WVc1bkl5TWpjMmhoZVdGdVp3PT0="
     },
     {
       "key": "ouge",
@@ -63,7 +62,7 @@
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliM1ZuWlNNakkyOTFaMlU9"
+      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
     },
     {
       "key": "labi2",
@@ -71,9 +70,24 @@
       "type": 3,
       "api": "csp_ZC4K",
       "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTliR0ZpYVRJakl5TnNZV0pwTWc9PQ=="
+      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXNZV0pwTWlNakkyeGhZbWt5"
     },
-    
+    {
+      "key": "muou",
+      "name": "🌟备用|4K⑥",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "http://yp2.mftv.top/zz4k666.jar",
+      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXRkVzkxSXlNamJYVnZkUT09"
+    },
+    {
+      "key": "pansou",
+      "name": "🌟备用|4K⑦",
+      "type": 3,
+      "api": "csp_ZC4K",
+      "jar": "http://yp2.mftv.top/zz4k666.jar",
+      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTljR0Z1YzI5MVl5TWpJM0JoYm5OdmRXTT0="
+    },
     {
       "key": "热播影视",
       "name": "💡热播｜1080P",
@@ -86,39 +100,6 @@
         "url": "http://v.rbotv.cn"
       }
     },
-{
-      "key": "🔱｜789🏅",
-      "name": "👑｜789",
-      "type": 2,
-      "api": "https://www.caiji.cyou/api.php/provide/vod/at/json",
-      "categories": [
-        "国产剧",
-        "日韩剧",
-        "欧美剧",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "纪录片",
-        "综艺",
-        "动漫"
-      ]
-    },
-
-        {
-            "key": "天天",
-            "name": "🧿┃天天┃秒播",
-            "type": 3,
-            "api": "csp_TTian",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "jar": "https://ncstatic.clewm.net/rsrc/2025/0725/20/318ccef14687421637f5aa0ba1021e33.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-            "ext": "7lj763gg0939791h1l3888jig44gi291li"
-        },
     {
       "key": "金牌影视",
       "name": "💡金牌｜影视",
@@ -154,16 +135,13 @@
         "url": "http://app.789dd.cn",
         "name": "火猫影视"
       }
-    },
-    {
-      "key": "push_agent",
-      "name": "腾讯3",
-      "type": 3,
-      "api": "csp_Push",
-      "playerType": "1",
-      "searchable": 0
-    },
- "parses": [{
+    }
+
+
+  ],
+  
+  
+  "parses": [{
             "name": "江南4k解析",
             "type": "1",
             "url":"https://api.jxapi.cc/api/?key=466fb6f21cb027e0f53b7b19baf82c83&url=",
@@ -190,8 +168,7 @@
 "User-Agent":"okhttp/4.1.0"}}
 }
 ],
-
-
+  
   
   "rules": [
     {
@@ -257,9 +234,7 @@
         "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:1\\.467,[\\s\\S]*?#EXT-X-DISCONTINUITY"
       ]
     },
-
-
-    
+   
     {
       "name": "火山嗅探",
       "hosts": [
