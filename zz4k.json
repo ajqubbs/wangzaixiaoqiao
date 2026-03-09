@@ -129,15 +129,7 @@
       "playerType": "1",
       "searchable": 0
     },
-    {
-      "key": "push_agent",
-      "name": "微信号：viptv222",
-      "type": 3,
-      "api": "csp_Push",
-      "playerType": "1",
-      "searchable": 0
-    }
-
+   
 
   "parses": [
     {
