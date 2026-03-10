@@ -59,62 +59,7 @@
       "api": "http://yp2.mftv.top/drpy_libs/drpy2.min.js",
       "ext": "http://yp2.mftv.top/js/mg.js"
     },
-    {
-      "key": "huban",
-      "name": "🌟备用|4K①",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMW9kV0poYmlNakkyaDFZbUZ1"
-    },
-    {
-      "key": "labi",
-      "name": "🌟备用|4K②",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
-    },
-    {
-      "key": "shayang",
-      "name": "🌟备用|4K③",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXphR0Y1WVc1bkl5TWpjMmhoZVdGdVp3PT0="
-    },
-    {
-      "key": "ouge",
-      "name": "🌟备用|4K④",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },
-    {
-      "key": "labi2",
-      "name": "🌟备用|4K⑤",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXNZV0pwTWlNakkyeGhZbWt5"
-    },
-    {
-      "key": "muou",
-      "name": "🌟备用|4K⑥",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTG0xbWRIWXVkRzl3TDJGd2FTNXdhSEEvYzJsMFpUMXRkVzkxSXlNamJYVnZkUT09"
-    },
-    {
-      "key": "pansou",
-      "name": "🌟备用|4K⑦",
-      "type": 3,
-      "api": "csp_ZC4K",
-      "jar": "http://yp2.mftv.top/zz4k666.jar",
-      "ext": "YUhSMGNEb3ZMMnRyTXk1dFpuUjJMblJ2Y0M5aGNHa3VjR2h3UDNOcGRHVTljR0Z1YzI5MVl5TWpJM0JoYm5OdmRXTT0="
-    },
+    
     {
       "key": "热播影视",
       "name": "💡热播｜1080P",
