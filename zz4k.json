@@ -4,7 +4,7 @@
   "wallpaper": "https://bing.img.run/uhd.php",
   "sites": [
     {
-      "key": "豆瓣2",
+      "key": "豆瓣",
       "name": "豆瓣┃首页",
       "type": 3,
       "api": "csp_Douban",
