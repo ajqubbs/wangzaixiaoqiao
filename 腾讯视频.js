@@ -658,9 +658,9 @@ var rule = {
     limit: 20,
     play_parse: true,
     lazy: $js.toString(() => {
-    try {
-        let bata = JSON.parse(response);
-        log(bata);
+        // 保存原始URL，避免被覆盖后无法使用
+        let originalUrl = input;
+        let videoUrl = originalUrl.split("?")[0];
         
         // 基础请求头
         let headers = {
@@ -668,51 +668,51 @@ var rule = {
         };
         
         // 弹幕地址
-        let danmakuUrl = 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://59.153.164.125:6351/dmk/?url=' + input.split("?")[0];
+        let danmakuUrl = 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://59.153.164.125:6351/dmk/?url=' + videoUrl;
         
-        if (bata.url.includes("http")) {
-            // 有真实视频地址，直接播放
-            input = {
-                header: headers,
-                parse: 0,
-                url: bata.url,
-                jx: 0,
-                danmaku: danmakuUrl
-            };
-        } else {
-            // 需要解析，调用江南4k-5接口
-            let videoUrl = input.split("?")[0];
-            let parseUrl = 'http://61.184.23.217:6163/api/index?parsesId=5&appid=10002&videoUrl=' + encodeURIComponent(videoUrl);
+        try {
+            let bata = JSON.parse(response);
+            log(bata);
+            
+            // 检查是否有真实视频地址（m3u8/mp4/flv等直接播放链接）
+            if (bata.url && bata.url.includes("http") && /(m3u8|mp4|flv)/.test(bata.url)) {
+                // 有真实视频地址，直接播放
+                input = {
+                    header: headers,
+                    parse: 0,
+                    url: bata.url,
+                    jx: 0,
+                    danmaku: danmakuUrl
+                };
+            } else {
+                // 需要解析，调用江南4k-4接口（极速4K，200次限制）
+                let parseUrl = 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=' + encodeURIComponent(videoUrl);
+                
+                input = {
+                    header: headers,
+                    parse: 1,  // 1表示走解析
+                    url: parseUrl,  // 解析接口地址
+                    jx: 1,  // 1表示需要解析
+                    danmaku: danmakuUrl
+                };
+            }
+        } catch (e) {
+            log("解析出错: " + e.message);
+            
+            // 出错时也走解析，使用parsesId=4（极速4K）
+            let parseUrl = 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=' + encodeURIComponent(videoUrl);
             
             input = {
-                header: headers,
-                parse: 1,  // 1表示走解析
-                url: parseUrl,  // 解析接口地址
-                jx: 1,  // 1表示需要解析
-                danmaku: danmakuUrl
+                header: {
+                    'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                },
+                parse: 1,
+                url: parseUrl,
+                jx: 1,
+                danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://59.153.164.125:6351/dmk/?url=' + videoUrl
             };
         }
-    } catch (e) {
-        log("解析出错: " + e.message);
-        
-        // 出错时也走解析
-        let videoUrl = input.split("?")[0];
-        let parseUrl = 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=' + encodeURIComponent(videoUrl);
-        
-
-        input = {
-            header: {
-                'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-            },
-            parse: 1,
-            url: parseUrl,
-            jx: 1,
-            danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://59.153.164.125:6351/dmk/?url=' + input.split("?")[0]
-        };
-    }
-}),
-
-          
+    }),
 
     推荐: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     一级: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
