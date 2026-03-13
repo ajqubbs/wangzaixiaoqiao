@@ -658,42 +658,60 @@ var rule = {
     limit: 20,
     play_parse: true,
     lazy: $js.toString(() => {
-        try {
-            let bata = JSON.parse(response);
-            log(bata)
-            if (bata.url.includes("http")) {
-                input = {
-                    header: {
-                        'User-Agent': ""
-                    },
-                    parse: 0,
-                    url: bata.url,
-                    jx: 0,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://59.153.164.125:6351/dmk/?url=' + input.split("?")[0]
-                };
-            } else {
-                input = {
-                    header: {
-                        'User-Agent': ""
-                    },
-                    parse: 0,
-                    url: input.split("?")[0],
-                    jx: 1,
-                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://59.153.164.125:6351/dmk/?url=' + input.split("?")[0]
-                };
-            }
-        } catch {
+    try {
+        let bata = JSON.parse(response);
+        log(bata);
+        
+        // 基础请求头
+        let headers = {
+            'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        };
+        
+        // 弹幕地址
+        let danmakuUrl = 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://59.153.164.125:6351/dmk/?url=' + input.split("?")[0];
+        
+        if (bata.url.includes("http")) {
+            // 有真实视频地址，直接播放
             input = {
-                header: {
-                    'User-Agent': ""
-                },
+                header: headers,
                 parse: 0,
-                url: input.split("?")[0],
-                jx: 1,
-                danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://59.153.164.125:6351/dmk/?url=' + input.split("?")[0]
+                url: bata.url,
+                jx: 0,
+                danmaku: danmakuUrl
+            };
+        } else {
+            // 需要解析，调用江南4k-5接口
+            let videoUrl = input.split("?")[0];
+            let parseUrl = 'http://61.184.23.217:6163/api/index?parsesId=5&appid=10002&videoUrl=' + encodeURIComponent(videoUrl);
+            
+            input = {
+                header: headers,
+                parse: 1,  // 1表示走解析
+                url: parseUrl,  // 解析接口地址
+                jx: 1,  // 1表示需要解析
+                danmaku: danmakuUrl
             };
         }
-    }),
+    } catch (e) {
+        log("解析出错: " + e.message);
+        
+        // 出错时也走解析
+        let videoUrl = input.split("?")[0];
+        let parseUrl = 'http://61.184.23.217:6163/api/index?parsesId=5&appid=10002&videoUrl=' + encodeURIComponent(videoUrl);
+        
+        input = {
+            header: {
+                'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            },
+            parse: 1,
+            url: parseUrl,
+            jx: 1,
+            danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://59.153.164.125:6351/dmk/?url=' + input.split("?")[0]
+        };
+    }
+}),
+
+            
 
     推荐: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
     一级: '.list_item;img&&alt;img&&src;a&&Text;a&&data-float',
