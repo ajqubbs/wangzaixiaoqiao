@@ -699,6 +699,7 @@ var rule = {
         let videoUrl = input.split("?")[0];
         let parseUrl = 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=' + encodeURIComponent(videoUrl);
         
+
         input = {
             header: {
                 'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
