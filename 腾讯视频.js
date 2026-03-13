@@ -927,7 +927,6 @@ var rule = {
             if (json.data && json.data.normalList) {
                 processItemList(json.data.normalList.itemList);
             }
-
             if (json.data && json.data.areaBoxList) {
                 json.data.areaBoxList.forEach(box => {
                     processItemList(box.itemList);
