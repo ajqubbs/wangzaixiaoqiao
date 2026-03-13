@@ -6,13 +6,15 @@
       "name": "✈️MM|4K",
       "type": 3,
       "api": "http://192.140.163.220:40782/mob/lib/drpy2.min.js",
-      "ext": "http://192.140.163.220:40782/mob/lib/芒果视频.js"
+  "playUrl": "http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=",   
+ "ext": "http://192.140.163.220:40782/mob/lib/芒果视频.js"
     },
     {
       "key": "腾讯视频",
       "name": "👑TT|4K",
       "type": 3,
       "api": "http://192.140.163.220:40782/mob/lib/drpy2.min.js",
+"playUrl": "http://61.184.23.217:6163/api/index?parsesId=5&appid=10002&videoUrl=",
       "ext": "http://192.140.163.220:40782/mob/lib/腾讯视频.js"
     },
    {
@@ -21,6 +23,7 @@
       "type": 3,
       "api": "csp_XYbilibili",
       "jar": "http://139.224.213.240:9978/static/xywp.jar",
+"playUrl": "http://61.184.23.217:6163/api/index?parsesId=6&appid=10002&videoUrl=",
       "ext": "VqcJQ9sllFeb5dx5NYX9+jP83pamCoDZzAuUYfi3PLdnS4LgQdoHrUzboAfQ25hMQsjSdFkLI4TNpPXy6g+QxA==",
       "searchable": 1,
       "quickSearch": 1,
