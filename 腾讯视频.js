@@ -924,7 +924,6 @@ var rule = {
                     }
                 });
             }
-
             if (json.data && json.data.normalList) {
                 processItemList(json.data.normalList.itemList);
             }
