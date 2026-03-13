@@ -697,7 +697,7 @@ var rule = {
         
         // 出错时也走解析
         let videoUrl = input.split("?")[0];
-        let parseUrl = 'http://61.184.23.217:6163/api/index?parsesId=5&appid=10002&videoUrl=' + encodeURIComponent(videoUrl);
+        let parseUrl = 'http://61.184.23.217:6163/api/index?parsesId=4&appid=10002&videoUrl=' + encodeURIComponent(videoUrl);
         
         input = {
             header: {
