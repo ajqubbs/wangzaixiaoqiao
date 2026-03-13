@@ -20,7 +20,7 @@
 "playerType": 1,
 "playUrl": "http://61.184.23.217:6163/api/index?parsesId=5&appid=10002&videoUrl=",
 
-      "ext": "http://192.140.163.220:40782/mob/lib/腾讯视频.js"
+      "ext": "https://gh-proxy.com/https://raw.githubusercontent.com/ajqubbs/wangzaixiaoqiao/main/腾讯视频.js"
     },
 
    {
