@@ -348,6 +348,34 @@
       "ext": ""
     }
   ],
+
+"parses": [{
+            "name": "江南4k-6",
+            "type": "1",
+            "url":"http://61.184.23.217:6163/api/index?parsesId=6&appid=10002&videoUrl=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+"header":{
+"User-Agent":"okhttp/4.1.0"}}
+}
+],
   "rules": [
     {
       "name": "头条",
