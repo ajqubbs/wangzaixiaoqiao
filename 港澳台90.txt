@@ -1,4 +1,4 @@
-测试,http://cdn.946945.xyz/ts/static/66c77727/66c77727.1775027546.ts
+测试,http://cdn.946945.xyz/channel/4fbcb296/index.m3u8
 测试2,http://cdn.946945.xyz/ts/static/66c77727/66c77727.1775027547.ts
 测试3,http://cdn.946945.xyz/ts/static/4fbcb296/4fbcb296.1775035703.ts
 测试4,
