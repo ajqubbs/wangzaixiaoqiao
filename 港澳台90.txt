@@ -1,3 +1,5 @@
+测试ts,http://cdn.946945.xyz/ts/static/66c77727/66c77727.1775027546.ts
+
 CCTV1,http://aptv168.com/s/a08e537a/index.m3u8?id=cctv1
 CCTV2,http://aptv168.com/s/a08e537a/index.m3u8?id=cctv2
 CCTV3,http://aptv168.com/s/a08e537a/index.m3u8?id=cctv3
