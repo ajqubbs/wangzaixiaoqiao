@@ -5,6 +5,7 @@
 http://cdn.946945.xyz/ts/static/4fbcb296/4fbcb296.1775035713.ts
 测试5,http://cdn.946945.xyz/ts/static/4fbcb296/4fbcb296.1775035712.ts
 测试6,http://cdn.946945.xyz/ts/static/4fbcb296/4fbcb296.1775035711.ts
+测试7,http://cdn.946945.xyz/ts/static/4fbcb296/4fbcb296.1775035710.ts
 
 CCTV1,http://aptv168.com/s/a08e537a/index.m3u8?id=cctv1
 CCTV2,http://aptv168.com/s/a08e537a/index.m3u8?id=cctv2
