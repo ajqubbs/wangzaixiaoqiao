@@ -474,7 +474,7 @@
     {
       "name": "KKW",
       "type": 0,
-      "url": "https://11465.kstore.space/%E8%87%AA%E8%90%A5/TVBoxOSC/tvbox/4k%E6%B5%8B%E8%AF%95%E5%9B%BD%E5%86%85.txt",
+      "url": "https://wget.la/https://raw.githubusercontent.com/ajqubbs/zhiboyuan/main/aos.txt",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
       "playerType": 2,
       "timeout": 10
