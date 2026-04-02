@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "江南tv",
+      "name": "江南TV",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
