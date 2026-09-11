@@ -1,0 +1,3342 @@
+{
+  "spider" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/jar/xbpqxyq.jar",
+  "lives" : [
+    {
+      "name" : "IPv4",
+      "type" : 0,
+      "url" : "https://gh-proxy.org/https://raw.githubusercontent.com/maccms2023/ix99vip/refs/heads/main/box/live.txt",
+      "ua" : "okhttp/3.12.13",
+      "epg" : "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo" : "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ],
+  "sites" : [
+    {
+      "key" : "csp_xbpq_s直播",
+      "name" : "成人[直播]ix99.vip",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/StripChat直播xbpq.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+       "key" : "drpy_ebay直播",
+      "name" : "美女直播",
+      "type" : 3,
+      "api" : "https://gh-proxy.com/raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/lib/drpy2.min.js",
+      "ext" : "https://gh-proxy.com/raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/e直播.js",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "91麻豆",
+      "name" : "麻豆视频",
+      "type" : 1,
+      "api" : "https://19q.cc/api.php/provide/vod/",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0
+    },
+    {
+      "key" : "应用商店",
+      "name" : "应用大全下载",
+      "type" : 3,
+      "api" : "csp_Market",
+      "searchable" : 0,
+      "changeable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/maccms2023/tvbox/refs/heads/main/tu/tbss.txt"
+    },
+    {
+     
+      "key" : "XMVideo",
+      "name" : "熊猫视频",
+      "type" : 3,
+      "api" : "csp_XMVideo",
+      "searchable" : 1,
+      "filterable" : 1,
+      "jar" : "https://gh-proxy.org/https://github.com/maccms2023/app/raw/refs/heads/main/182.jar"
+    },
+    {
+
+      "key" : "csp_xbpq_s直播带票",
+      "name" : "🎫成人[直播][免翻]",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/stripchat直播带票.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "量子",
+      "name" : "三级|系列2",
+      "type" : 1,
+      "api" : "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "playurl" : "json:http://160.202.226.85:88/tian/?url=",
+      "categories" : [
+        "伦理片"
+      ]
+    },
+    {
+      "key" : "聚合",
+      "name" : "📱午夜趣事｜①",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "jar" : "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "http://fu.zhizunhai.dpdns.org:5995/聚合.json"
+    },
+    {
+      "key" : "91探花",
+      "name" : "📱午夜趣事｜②",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "jar" : "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "http://fu.zhizunhai.dpdns.org:5995/91探花.json"
+    },
+    {
+      "key" : "91吃瓜",
+      "name" : "📱午夜趣事｜③",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "jar" : "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "http://fu.zhizunhai.dpdns.org:5995/91吃瓜.json"
+    },
+    {
+      "key" : "小丑",
+      "name" : "📱午夜趣事｜④",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "jar" : "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "http://fu.zhizunhai.dpdns.org:5995/小丑.json"
+    },
+    {
+      "key" : "极乐禁区",
+      "name" : "📱午夜趣事｜⑤",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "jar" : "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "http://fu.zhizunhai.dpdns.org:5995/极乐禁区.json"
+    },
+    {
+      "key" : "Aries",
+      "name" : "📱午夜趣事｜⑥",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "jar" : "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "http://fu.zhizunhai.dpdns.org:5995/Aries.json"
+    },
+    {
+      "key" : "搜索仓库",
+      "name" : "📱午夜趣事｜⑦",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "jar" : "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "http://fu.zhizunhai.dpdns.org:5995/射窝.json"
+    },
+    {
+      "key" : "一起网",
+      "name" : "📱午夜趣事｜⑧",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "jar" : "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "http://fu.zhizunhai.dpdns.org:5995/一起玩.json"
+    },
+    {
+      "key" : "色彩仓库",
+      "name" : "📱午夜趣事｜⑨",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "jar" : "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "https://raw.giteeusercontent.com/zhang-xinhai58/my/raw/master/拾光/xbpq/hsck.json"
+    },
+    {
+      "key" : "csp_xbpq_小黄书xbpq",
+      "name" : "🔍小黄书",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/小黄书xbpq.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_yese",
+      "name" : "夜色",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/yese.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_sae8视频",
+      "name" : "🔍sae8视频",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/sae8视频.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_黑猫AV.json",
+      "name" : "🔍黑猫AV",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/黑猫AV.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_jkf",
+      "name" : "捷克论坛",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/jkf.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_91情报局",
+      "name" : "🔍91情报局",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/91情报局.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_18porn",
+      "name" : "[无图待修]18porn",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/18porn.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_啪啪啦",
+      "name" : "🔍啪啪啦",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/啪啪啦.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_91porn",
+      "name" : "🔍91porn",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/91porn.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_糖心vlog",
+      "name" : "糖心vlog",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/糖心vlog.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_蜜桃视频",
+      "name" : "🔍蜜桃视频",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/蜜桃视频.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_91视频",
+      "name" : "❌没有写好，91视频",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/91视频.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_17吃瓜",
+      "name" : "🚫17吃瓜",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/17吃瓜xbpq.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_91自拍成人影院.json",
+      "name" : "[无搜]91自拍成人影院[免翻]",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/91自拍成人影院.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_HOTXXX中文二级.json",
+      "name" : "🔍HOTXXX中文二级[免翻]",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/HOTXXX中文二级.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_【公众号_半糖碎光】XSMJAV.json",
+      "name" : "🔍【公众号_半糖碎光】XSMJAV.json[免翻]",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/【公众号_半糖碎光】XSMJAV.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_kanav.json",
+      "name" : "🔍kanav",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/kanav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_pornhub11",
+      "name" : "🔍💯pornhub",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/pornhub-xbpq.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_xvideos11",
+      "name" : "🔍💯xvideos",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/xvideos-xbpq.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_tktube12",
+      "name" : "🔍💯Tktube",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/tktube-xbpq.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_麻豆av",
+      "name" : "🔍麻豆AV[无图]",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/麻豆av.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_18mh",
+      "name" : "❌禁漫天堂[无图]",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/18mh.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_禁片天堂jptt.tv",
+      "name" : "🔍💯禁片天堂",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/禁片天堂.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_91黑料网.json",
+      "name" : "🔍91黑料网",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/91黑料网.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_x1hub",
+      "name" : "🔍X1HUB",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/x1hub.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_麻豆社",
+      "name" : "🔍麻豆社",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/麻豆社xbpq.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_小鸭看看",
+      "name" : "小鸭看看(跳谷歌搜索)",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/小鸭看看.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_hubff",
+      "name" : "🔍Hubff",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/hubff.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_pornlulu1",
+      "name" : "🔍pornlulu",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/pornlulu.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_久久网",
+      "name" : "🔍久久网",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/jiujiu.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_av01.org",
+      "name" : "🔍第一女优网",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/第一女优网.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_第一色情网",
+      "name" : "[安全验证]第一色情网",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/第一色情网.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_avgood",
+      "name" : "等待更新avgood",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/avgood.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_123",
+      "name" : "🔍💯123",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/123TV.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_mylust",
+      "name" : "mylust.json",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/mylust.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_色多多(扑街仔).json",
+      "name" : "🔍色多多(扑街仔).json",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/色多多(扑街仔).json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_萝莉酒吧.json",
+      "name" : "🔍萝莉酒吧.json",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/萝莉酒吧.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_蝴蝶情.json",
+      "name" : "🔍蝴蝶情.json[免翻]",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/蝴蝶情.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_佛跳墙(二级).json",
+      "name" : "🔍佛跳墙(二级).json",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/佛跳墙(二级).json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_s朱古力",
+      "name" : "朱古力",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/朱古力xbpq.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_🔞才是源动力_极乐禁区(修复二级翻页bug).json",
+      "name" : "🔍🔞极乐禁区",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/🔞才是源动力_极乐禁区(修复二级翻页bug).json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "csp_xbpq_🔞推特黑料",
+      "name" : "🔞推特黑料",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/x推特黑料.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.65
+      }
+    },
+    {
+      "key" : "油管jar",
+      "name" : "油管jar",
+      "type" : 3,
+      "api" : "csp_ProxySpider",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.33
+      },
+      "jar" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/jar/pro0516.jar",
+      "ext" : "YoutubeSpider",
+      "filterable" : 0
+    },
+    {
+      "key" : "csp_xbpq_91porna",
+      "name" : "[待修复]🔞91porna",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/91porna.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_stripchat直播",
+      "name" : "❌🔞StripChat[直播]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/stripchat直播.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_bongacams直播",
+      "name" : "🔞bongacams[直播]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/bongacams直播.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "drpy_js_ss直播",
+      "name" : "直播大全[直播][js]",
+      "type" : 3,
+      "api" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/lib/drpy2.min.js",
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/ss直播.js",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_直播大全",
+      "name" : "🔞直播大全[直播]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/直播大全.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_X(Twitter)黑料",
+      "name" : "🔞X(Twitter)推特黑料",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/X(Twitter)黑料.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_情色小说论坛",
+      "name" : "🔍🔞情色小说论坛",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/情色小说论坛.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_91porna",
+      "name" : "🔍🔞91Porna",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/91porna.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_pornhub",
+      "name" : "🔍🔞Pornhub",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/pornhub.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_xvideos",
+      "name" : "🔍🔞Xvideos",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/xvideos.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_xnxx",
+      "name" : "搜索有问题🔞XNXX",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/xnxx.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_xHamster",
+      "name" : "🔍🔞xHamster[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/xHamster.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_spankbang",
+      "name" : "🔞[待修复]spankbang",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/spankbang.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_ppp",
+      "name" : "🔍🔞PPP",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/ppp.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_tktube",
+      "name" : "🔞[待修复]Tktube",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/tktube.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_xgroovy",
+      "name" : "🔍🔞xgroovy",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/xgroovy.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_jable",
+      "name" : "🔍🔞Jable",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/jable.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_禁片天堂",
+      "name" : "🔍🔞禁片天堂",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/禁片天堂.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_强国av",
+      "name" : "[待修复]🔞强国AV❌网站无数据",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/强国av.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_airav",
+      "name" : "[带修复]🔞AirAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/airav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_玩偶姐姐",
+      "name" : "[带修复]🔞玩偶姐姐带修复",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/玩偶姐姐.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_ggjav",
+      "name" : "🔍🔞GGJAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/ggjav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_日日撸",
+      "name" : "🔍🔞日日撸[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/日日撸.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_cospuri",
+      "name" : "[试看]🔞COSpuri",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/cospuri.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_鉴黄师",
+      "name" : "🔞鉴黄师",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/鉴黄师.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_正妹AV",
+      "name" : "🔍🔞正妹AV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/正妹av.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_porn87",
+      "name" : "🔍🔞Porn87",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/porn87.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_亚洲色吧",
+      "name" : "🔞亚洲色吧",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/亚洲色吧.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_owoAV",
+      "name" : "🔞OWOAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/owoav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_丽丽AV",
+      "name" : "🔞丽丽AV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/丽丽av.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_朱古力",
+      "name" : "🔞朱古力",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/朱古力2.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_OVOAV",
+      "name" : "🔞OVOAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/ovojav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_好色TV",
+      "name" : "🔍🔞好色TV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/好色tv.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_missav.app",
+      "name" : "🔍🔞MissAV.app",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/missav.app.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_missav",
+      "name" : "🔍🔞MissAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/missav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_njavtv.com",
+      "name" : "🔍🔞Njavtv.com",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/njavtv.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_njav.com",
+      "name" : "🔞Njav.com",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/njav.com.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_soporn",
+      "name" : "🔞Soporn❌",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/soporn.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_小丑撸",
+      "name" : "🔍🔞小丑🤡撸[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/小丑撸.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_小嫂子av",
+      "name" : "🔞小嫂子AV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/小嫂子av.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_小黄书x",
+      "name" : "🔞小黄书🔗",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/小黄书.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_爱上av",
+      "name" : "🔞爱上av❌",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/爱上av.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_色最色",
+      "name" : "🔞色最色",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/色最色.json"
+    },
+    {
+      "key" : "csp_XYQHiker_ptt.sex",
+      "name" : "🔍🔞PTT",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/ptt.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_红桃视频",
+      "name" : "🔞红桃视频",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/红桃视频.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_热骚",
+      "name" : "🔞热骚",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/热骚.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_ixxxj",
+      "name" : "🔍🔞IXXXJ[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/ixxxj.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_hanimi1",
+      "name" : "🔞Hanime1",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/hanime1.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_jiedm",
+      "name" : "🔞jiedmAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/jiedm.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_xtoons",
+      "name" : "🔞Xtoons动漫",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/xtoons.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_动漫PRO",
+      "name" : "🔍🔞动漫PRO",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/动漫pro.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_ACG漫画网",
+      "name" : "🔞ACG漫画网",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/acg漫画网.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.33
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_avbebe",
+      "name" : "🔞AVbebe",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/avbebe.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.33
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_吃瓜网520",
+      "name" : "[待修复]🔞吃瓜网",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/吃瓜网.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_黑料网",
+      "name" : "🔞黑料网",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/黑料网.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_黑料百科",
+      "name" : "🔞黑料百科",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/黑料百科.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_91吃瓜网",
+      "name" : "🔍🔞91吃瓜网[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/91吃瓜网.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_17吃瓜",
+      "name" : "🔍🔞17吃瓜[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/17吃瓜.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "drpy_js_ebay直播",
+      "name" : "ebay直播[js]",
+      "type" : 3,
+      "api" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/lib/drpy2.min.js",
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/e直播.js",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "drpy_js_SOAV[密]",
+      "name" : "🔍SOAV[密][js][免翻]",
+      "type" : 3,
+      "api" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/lib/drpy2.min.js",
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/SOAV[密].js",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "drpy_js_18av",
+      "name" : "🔍18av[js]",
+      "type" : 3,
+      "api" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/lib/drpy2.min.js",
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/js/18av.js",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_krx18",
+      "name" : "🔞KRX18[伦理]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/krx18.json"
+    },
+    {
+      "key" : "csp_XYQHiker_lxxlxx",
+      "name" : "🔍🔞LxxLxx[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/lxxlxx.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_好看视频+",
+      "name" : "🔍🔞好看视频+[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/好看视频.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_5278",
+      "name" : "[无搜]🔞我爱78论坛",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/5278.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_bad",
+      "name" : "🔍🔞Bad.news",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/bad.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_bad搜索1",
+      "name" : "🔞Bad.news搜索AV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/bad搜索1.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_bad搜索2",
+      "name" : "🔍🔞Bad.news搜索动漫",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/bad搜索2.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_52av论坛",
+      "name" : "🔞52av论坛",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/52av2.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_camcam",
+      "name" : "🔍🔞CamCam",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/camcam.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_后宫电影院",
+      "name" : "🔍🔞后宫电影院",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/后宫电影院.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_AV兄弟",
+      "name" : "🔍🔞AV兄需修复弟💉",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/av兄弟.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_云老婆",
+      "name" : "🔞云老婆",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/云老婆.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 0.75
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_波波",
+      "name" : "🔞波波",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/boboporn.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_justav",
+      "name" : "🔞justav",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/justav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_jieav",
+      "name" : "🔞JieAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/jieav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_亚色影库",
+      "name" : "🔍🔞亚色影库",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/亚色影库.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_18jav",
+      "name" : "🔞18JAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/18jav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_黄色仓库",
+      "name" : "🔍🔞黄色仓库✈️🔗",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/黄色仓库.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_黄色仓库XBPQ",
+      "name" : "🔞黄色仓库[免翻]",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/绿色仓库xbpq.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_黄色仓库123",
+      "name" : "🔍🔞黄色仓库123✈️🔗",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/黄色仓库123.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_黄色仓库la",
+      "name" : "🔍🔞黄色仓库啦✈️🔗",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/黄色仓库啦.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_酷爱成人网>",
+      "name" : "🔞酷爱成人网✈️",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/酷爱成人网.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_444咖啡",
+      "name" : "🔍🔞444咖啡[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/444咖啡.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_hohoj",
+      "name" : "🔍🔞HOHOJ",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/hohoj.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_麻豆社",
+      "name" : "🔞麻豆社",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/麻豆社.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_asianssex",
+      "name" : "🔞asianssex",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/asianssex.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_hdpornmovies",
+      "name" : "🔞hdpornmovies",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/hdpornmovies.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_playav",
+      "name" : "🔞playav验证",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/playav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_qinav",
+      "name" : "🔞Qinav",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/qinav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_91HD",
+      "name" : "🔞91HD待更新",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/91hd.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_有爱爱uaa",
+      "name" : "🔍🔞有爱爱uaa🔗",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/有爱爱.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.75
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_紫色成人",
+      "name" : "🔍🔞紫色成人",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/紫色成人.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_netflav",
+      "name" : "🔍🔞NETFLAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/netflav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_av6k",
+      "name" : "🔍🔞AV6K",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/av6k.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_苹果av",
+      "name" : "🔞苹果AV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/苹果av.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_theporn",
+      "name" : "🔞ThePorn",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/theporn.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_麻豆视频91md",
+      "name" : "🔞麻豆视频91md",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/麻豆视频91md.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_kanav",
+      "name" : "🔍🔞KANAV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/kanav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_色库TV",
+      "name" : "🔞色库TV×",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/色库tv.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_5x社区",
+      "name" : "🔍🔞5x社区✈️",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/5x社区.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "JAVDAYTV",
+      "name" : "🔞JAVDAYTV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/javday.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_MOTV",
+      "name" : "🔍🔞✈️MOTV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/motv.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_杏吧视频",
+      "name" : "🔍🔞杏吧视频[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/杏吧视频.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_一起草",
+      "name" : "🔞一起草",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/一起草.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_javffm",
+      "name" : "🔍🔞JAVFFM[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/javffm.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_dbro",
+      "name" : "🔞D哥",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/dbro.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_youjizz",
+      "name" : "🔞Youjizz",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/youjizz.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_ujizzcn",
+      "name" : "🔞Ujizzcn",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/ujizzcn.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_pornlulu",
+      "name" : "🔍🔞PornLuLu",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/pornlulu.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_91porn_asia",
+      "name" : "🔍🔞91porn_asia",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/91porn_asia.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.75
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_91porny",
+      "name" : "🔞九色",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/91porny.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_91porn",
+      "name" : "🔞91porn",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/91porn.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_91porn永久官方",
+      "name" : "🔞91porn永久官方",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/91porn永久.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_91pinse",
+      "name" : "🔞91pinse",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/91pinse.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_taiav",
+      "name" : "🔍TaiAv🔞",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/taiav.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_nowavtv",
+      "name" : "🔞NOWAVTV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/nowavtv.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_sexsex",
+      "name" : "🔞sexsex",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/sexsex.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_鲨鱼av",
+      "name" : "🔍🔞鲨鱼av[免翻]",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/鲨鱼av.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_18av",
+      "name" : "🔍🔞18AV",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/18av.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_javtsunami",
+      "name" : "🔞javtsunami",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/javtsunami.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_肉视频🔞",
+      "name" : "🔞肉视频x",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/rouvide.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.8
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_番号鸽",
+      "name" : "🔞番号鸽",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/番号鸽.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "155资源🔞",
+      "name" : "🔞155资源[免翻][🌈采集]",
+      "type" : 1,
+      "api" : "https://155api.com/api.php/provide/vod/",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_XYQHiker_18jtv🔞",
+      "name" : "待修复🔞18jtv",
+      "type" : 3,
+      "api" : "csp_XYQHiker",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/XYQHiker/18jtv.json",
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.6
+      }
+    },
+    {
+      "key" : "csp_xBPQ_搞aa",
+      "name" : "🔞GAOAA[免翻]",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0,
+      "ext" : "https://gh-proxy.org/https://raw.githubusercontent.com/wanganni/yinshiyuan/main/tv/xbpq/gaoaaxxx.json"
+    },
+    {
+      "key" : "*美少女",
+      "name" : "*美少女",
+      "type" : 0,
+      "api" : "https://www.msnii.com/api/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "*饮水机",
+      "name" : "*饮水机",
+      "type" : 0,
+      "api" : "https://www.xrbsp.com/api/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "*白嫖",
+      "name" : "*白嫖",
+      "type" : 0,
+      "api" : "https://www.kxgav.com/api/xml.php"
+    },
+    {
+      "key" : "KpgxdyE",
+      "name" : "黄AV资源(已修复)",
+      "type" : 0,
+      "api" : "https://www.pgxdy.com/api/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "非凡",
+      "name" : "三级|系列3",
+      "type" : 1,
+      "api" : "http://api.ffzyapi.com/api.php/provide/vod/",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "playurl" : "json:http://160.202.226.85:88/tian/?url=",
+      "categories" : [
+        "伦理片"
+      ]
+    },
+    {
+      "key" : "jp",
+      "name" : "精品影视|小草口令3344",
+      "type" : 1,
+      "api" : "https://jipinvip1.com/api.php/provide/vod/",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0
+    },
+    {
+      "key" : "柠檬",
+      "name" : "蓝光",
+      "type" : 3,
+      "api" : "csp_Nmvod",
+      "playerType" : 2,
+      "jar" : "https://gitee.com/tianwikeji/jar/raw/master/柠檬.jar",
+      "ext" : "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+    },
+    {
+      "key" : "*乐播资源",
+      "name" : "??????乐播资源",
+      "type" : 1,
+      "api" : "https://lbapi9.com/api.php/provide/vod/",
+      "searchable" : 1,
+      "quickSearch" : 0,
+      "filterable" : 0
+    },
+    {
+      "key" : "玉兔资源",
+      "name" : "玉兔资源(??????)",
+      "type" : 1,
+      "api" : "https://apiyutu.com/api.php/provide/vod",
+      "playerUrl" : ""
+    },
+    {
+      "key" : "金坤资源",
+      "name" : "金坤资源(??????)",
+      "type" : 0,
+      "api" : "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
+      "playerUrl" : ""
+    },
+    {
+      "key" : "zp100",
+      "name" : "??????乐播",
+      "type" : 0,
+      "api" : "https://lbapi9.com/api.php/provide/vod/at/xml/",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0
+    },
+    {
+      "key" : "越资源云",
+      "name" : "越资源云(??????)",
+      "type" : 0,
+      "api" : "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+      "playerUrl" : ""
+    },
+    {
+      "key" : "*番号资源",
+      "name" : "??????番号资源",
+      "type" : 1,
+      "api" : "http://fhapi9.com/api.php/provide/vod/",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0
+    },
+    {
+      "key" : "杏资源",
+      "name" : "高清资源",
+      "type" : 1,
+      "api" : "https://json.xingba222.com/api.php/provide/vod/?ac=list",
+      "searchable" : 1
+    },
+    {
+      "key" : "x资源",
+      "name" : "xx资源",
+      "type" : 1,
+      "api" : "https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list",
+      "searchable" : 1
+    },
+    {
+      "key" : "se资源",
+      "name" : "色资源",
+      "type" : 1,
+      "api" : "https://hsckzy888.com/api.php/provide/vod/?ac=list",
+      "searchable" : 1
+    },
+    {
+      "key" : "didiz2",
+      "name" : "|4K",
+      "type" : 3,
+      "api" : "csp_AppYsV2",
+      "playerType" : 2,
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : "https://4k4k4k.honr1.top/api.php/app/"
+    },
+    {
+      "key" : "香奶儿资源",
+      "name" : "香奶儿资源",
+      "type" : 0,
+      "api" : "https://www.gdlsp.com/api/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "美少女资源",
+      "name" : "美少女资源",
+      "type" : 0,
+      "api" : "https://www.msnii.com/api/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "番外",
+      "name" : "|番外",
+      "type" : 1,
+      "api" : "http://fhapi9.com/api.php/provide/vod/",
+      "playUrl" : "",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "categories" : [
+        "群交淫乱",
+        "偷拍自拍",
+        "制服丝袜",
+        "无码专区",
+        "卡通动漫",
+        "中文字幕",
+        "欧美性爱",
+        "巨乳美乳",
+        "国产裸聊",
+        "国产自",
+        "国产盗摄",
+        "伦理三级",
+        "女同性恋",
+        "少女萝莉",
+        "人妖系列",
+        "虚拟VR"
+      ],
+      "style" : {
+        "type" : "rect",
+        "ratio" : 1.4
+      }
+    },
+    {
+      "key" : "*番号资源",
+      "name" : "番号资源",
+      "type" : 1,
+      "api" : "http://fhapi9.com/api.php/provide/vod/",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 0
+    },
+    {
+      "key" : "*乐播资源",
+      "name" : "乐播资源",
+      "type" : 1,
+      "api" : "https://lbapi9.com/api.php/provide/vod/",
+      "searchable" : 1,
+      "quickSearch" : 0,
+      "filterable" : 0
+    },
+    {
+      "key" : "zp100",
+      "name" : "乐播",
+      "type" : 0,
+      "api" : "https://lbapi9.com/api.php/provide/vod/at/xml/",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0
+    },
+    {
+      "key" : "玉兔资源",
+      "name" : "玉兔资源()",
+      "type" : 1,
+      "api" : "https://apiyutu.com/api.php/provide/vod",
+      "playerUrl" : ""
+    },
+    {
+      "key" : "越资源云",
+      "name" : "越资源云()",
+      "type" : 0,
+      "api" : "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+      "playerUrl" : ""
+    },
+    {
+      "key" : "番号资源",
+      "name" : "番号资源()",
+      "type" : 0,
+      "api" : "http://fhapi9.com/api.php/provide/vod/at/xml",
+      "playerUrl" : ""
+    },
+    {
+      "key" : "金坤资源",
+      "name" : "金坤资源()",
+      "type" : 0,
+      "api" : "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
+      "playerUrl" : ""
+    },
+    {
+      "key" : "苹果资源",
+      "name" : "苹果资源()",
+      "type" : 0,
+      "api" : "https://www.pgxdy.com/api/xml.php",
+      "searchable" : 0,
+      "quickSearch" : 0
+    },
+    {
+      "key" : "淫水机云",
+      "name" : "淫水机云()",
+      "type" : 0,
+      "api" : "https://www.xrbsp.com/api/xml.php",
+      "searchable" : 0,
+      "quickSearch" : 0
+    },
+    {
+      "key" : "美少女云",
+      "name" : "美少女云()",
+      "type" : 0,
+      "api" : "https://www.msnii.com/api/xml.php",
+      "searchable" : 0,
+      "quickSearch" : 0
+    },
+    {
+      "key" : "香奶儿云",
+      "name" : "香奶儿云()",
+      "type" : 0,
+      "api" : "https://www.gdlsp.com/api/xml.php",
+      "searchable" : 0,
+      "quickSearch" : 0
+    },
+    {
+      "key" : "8022",
+      "name" : "香奶儿资源",
+      "type" : 0,
+      "api" : "https://www.gdlsp.com/api/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "淫水机资源",
+      "name" : "淫水机资源",
+      "type" : 0,
+      "api" : "https://www.xrbsp.com/api/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "白嫖资源",
+      "name" : "白嫖资源",
+      "type" : 0,
+      "api" : "https://www.kxgav.com/api/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "大地资源",
+      "name" : "大地资源",
+      "type" : 0,
+      "api" : "https://dadiapi.com/api.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "黄AV资源",
+      "name" : "黄AV资源",
+      "type" : 0,
+      "api" : "https://www.pgxdy.com/ap/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "乐播资源",
+      "name" : "乐播资源",
+      "type" : 0,
+      "api" : "https://lbapi9.com/api.php/provide/vod/at/xml",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "CK资源",
+      "name" : "CK资源",
+      "type" : 1,
+      "api" : "https://ckzy.me/api.php/provide/vod/",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "AIvin",
+      "name" : "AIvin",
+      "type" : 0,
+      "api" : "http://lbapiby.com/api.php/provide/vod/at/xml",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "fqzy资源",
+      "name" : "首页换源",
+      "type" : 1,
+      "api" : "https://fqzy.me//api.php/provide/vod/?ac=list",
+      "searchable" : 1,
+      "changeable" : 1,
+      "categories" : [
+        "黑料网曝",
+        "国产大制作",
+        "偷拍自拍",
+        "高清无码",
+        "乱伦毁三观",
+        "淫乱学生",
+        "主播女网红",
+        "高清有码",
+        "中文字幕",
+        "动漫精选",
+        "欧美精品"
+      ]
+    },
+    {
+      "key" : "*香奶儿资源",
+      "name" : "香奶儿",
+      "type" : 0,
+      "api" : "https://www.gdlsp.com/api/xml.php",
+      "searchable" : 0,
+      "quickSearch" : 0
+    },
+    {
+      "key" : "Cg51",
+      "name" : "51吃瓜",
+      "type" : 3,
+      "api" : "csp_Cg51",
+      "searchable" : 1,
+      "filterable" : 1,
+      "jar" : "https://gh.llkk.cc/https://raw.githubusercontent.com/aliluya1977/yg/main/jar/182.jar"
+    },
+    {
+      "key" : "ck",
+      "name" : "CK资源",
+      "type" : 0,
+      "api" : "https://ckzy.me/api.php/provide/vod/at/xml/",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0
+    },
+    {
+      "key" : "乐播资源",
+      "name" : "乐播资源",
+      "type" : 0,
+      "api" : "https://lbapi9.com/api.php/provide/vod/at/xml",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "pgxdy",
+      "name" : "Pgx电影",
+      "type" : 0,
+      "api" : "https://www.pgxdy.com/api/xml.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "didi",
+      "name" : "滴滴(直连)",
+      "type" : 1,
+      "api" : "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+      "searchable" : 1,
+      "filterable" : 1,
+      "jar" : "https://gitee.com/juanxiao/bh/raw/master/o.jar"
+    },
+    {
+      "key" : "didiz",
+      "name" : "玫瑰(直连)",
+      "type" : 1,
+      "api" : "https://jipinzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "hipy_js_ss直播",
+      "name" : "直播",
+      "type" : 3,
+      "api" : "https://stoud.net/hjhyweb/static/js/drpy2.min.js",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "order_num" : 0,
+      "ext" : "https://stoud.net/hjhyweb/static/js/ss直播.js"
+    },
+    {
+      "key" : "大地专场",
+      "name" : "大地",
+      "type" : 0,
+      "api" : "https://dadiapi.com/api.php",
+      "playUrl" : "",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "美少女",
+      "name" : "美少女",
+      "type" : 0,
+      "api" : "https://www.msnii.com/api/xml.php",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 1,
+      "jar" : "https://share.nite07.com/api/v3/file/source/18178/18.jar?sign=4snwZEDuzr88tmVvCLDre0Jjbt5hOKh7zrtE37bQV30%3D%3A0"
+    },
+    {
+      "key" : "*淫水机资源",
+      "name" : "水机",
+      "type" : 0,
+      "api" : "https://www.xrbsp.com/api/xml.php",
+      "searchable" : 0,
+      "quickSearch" : 0
+    },
+    {
+      "key" : "*白嫖资源",
+      "name" : "白嫖",
+      "type" : 0,
+      "api" : "https://www.kxgav.com/api/xml.php",
+      "searchable" : 0,
+      "quickSearch" : 0
+    },
+    {
+      "key" : "传媒二区",
+      "name" : "传媒1区",
+      "type" : 3,
+      "api" : "csp_XBPQ",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1,
+      "ext" : {
+        "主页url" : "https://www.34gaobk.com/index.html",
+        "数组" : "<div class=\"card mb-0\">&&</a",
+        "标题" : "atl=\"&&\"",
+        "副标题" : "img-tag\">&&</div>",
+        "简介" : "document.title='&&'",
+        "直接播放" : "1",
+        "搜索模式" : "1",
+        "搜索url" : "https://www.34gaobk.com/gaosearch/{wd}-/page/{pg}/",
+        "分类数组" : "<a&&/a>",
+        "分类标题" : ">&&<",
+        "分类ID" : "/gaotype/&&.html",
+        "分类url" : "https://www.34gaobk.com/gaotype/{cateId}_{catePg}.html[https://www.34gaobk.com/gaotype/{cateId}.html]"
+      },
+      "jar" : "https://gh.llkk.cc/https://raw.githubusercontent.com/guot55/yg/main/jar/hl.jar"
+    },
+    {
+      "key" : "didizy.com",
+      "name" : "传媒2区",
+      "type" : 1,
+      "api" : "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+      "searchable" : 1,
+      "filterable" : 1,
+      "jar" : "https://gitee.com/juanxiao/bh/raw/master/o.jar"
+    },
+    {
+      "key" : "*色南国资源",
+      "name" : "传媒3区",
+      "type" : 1,
+      "api" : "https://api.sexnguon.com/api.php/provide/vod/",
+      "searchable" : 0,
+      "quickSearch" : 0
+    },
+    {
+      "key" : "*AIvin",
+      "name" : "传媒4区",
+      "type" : 0,
+      "api" : "http://lbapiby.com/api.php/provide/vod/at/xml"
+    },
+    {
+      "key" : "奥斯卡",
+      "name" : "传媒5区",
+      "type" : 1,
+      "api" : "https://aosikazy.com/api.php/provide/vod/?ac=list",
+      "searchable" : 1
+    },
+    {
+      "key" : "奶香m",
+      "name" : "传媒6区",
+      "type" : 1,
+      "api" : "https://Naixxzy.com/api.php/provide/vod/?ac=list",
+      "searchable" : 1
+    },
+    {
+      "key" : "155专场",
+      "name" : "传媒7区",
+      "type" : 1,
+      "api" : "https://155api.com/api.php/provide/vod/",
+      "playUrl" : "",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "zp124",
+      "name" : "传媒8区",
+      "type" : 0,
+      "api" : "https://api.maozyapi.com/inc/api.php",
+      "searchable" : 1,
+      "quickSearch" : 1,
+      "filterable" : 0
+    },
+    {
+      "key" : "森林",
+      "name" : "传媒9区",
+      "type" : 1,
+      "api" : "https://beiyong.slapibf.com/api.php/provide/vod/?ac=list",
+      "searchable" : 1
+    },
+    {
+      "key" : "didiz",
+      "name" : "传媒10区",
+      "type" : 1,
+      "api" : "https://jipinzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable" : 1,
+      "filterable" : 1
+    },
+    {
+      "key" : "csp_Bili_Meinvw",
+      "name" : "美女┃舞蹈",
+      "type" : 3,
+      "api" : "csp_Bili",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 1,
+      "jar" : "https://gitee.com/YW66/ZL/raw/master/xuexi.jar",
+      "ext" : " https://x.6788888.xyz/M1/json/meinv.json"
+    },
+    {
+      "key" : "csp_BBB",
+      "name" : "舞蹈┃合集",
+      "type" : 3,
+      "api" : "csp_Bili",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 1,
+      "jar" : "https://gitee.com/YW66/ZL/raw/master/xuexi.jar",
+      "ext" : "https://x.6788888.xyz/M1/json/bili2.json"
+    },
+    {
+      "key" : "csp_Bili_Nvtuan",
+      "name" : "女团┃热舞",
+      "type" : 3,
+      "api" : "csp_Bili",
+      "searchable" : 0,
+      "quickSearch" : 0,
+      "filterable" : 1,
+      "jar" : "https://gitee.com/YW66/ZL/raw/master/xuexi.jar",
+      "ext" : " https://x.6788888.xyz/M1/json/nvtuan.json"
+    },
+    {
+      "key" : "*KK写真资源",
+      "name" : "APP下载1338.hk",
+      "type" : 1,
+      "api" : "https://kkzy.me/api.php/provide/vod/",
+      "searchable" : 0,
+      "quickSearch" : 0
+    }
+  ],
+  "flags" : [
+    "youku",
+    "qq",
+    "QQ",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "pptv",
+    "PPTV",
+    "mgtv",
+    "wasu",
+    "bilibili",
+    "m1905",
+    "seven",
+    "m78"
+  ],
+  "ijk" : [
+    {
+      "group" : "软解码",
+      "options" : [
+        {
+          "category" : 4,
+          "name" : "opensles",
+          "value" : "0"
+        },
+        {
+          "category" : 4,
+          "name" : "overlay-format",
+          "value" : "842225234"
+        },
+        {
+          "category" : 4,
+          "name" : "framedrop",
+          "value" : "1"
+        },
+        {
+          "category" : 4,
+          "name" : "soundtouch",
+          "value" : "1"
+        },
+        {
+          "category" : 4,
+          "name" : "start-on-prepared",
+          "value" : "1"
+        },
+        {
+          "category" : 1,
+          "name" : "http-detect-range-support",
+          "value" : "0"
+        },
+        {
+          "category" : 1,
+          "name" : "fflags",
+          "value" : "fastseek"
+        },
+        {
+          "category" : 2,
+          "name" : "skip_loop_filter",
+          "value" : "48"
+        },
+        {
+          "category" : 4,
+          "name" : "reconnect",
+          "value" : "1"
+        },
+        {
+          "category" : 4,
+          "name" : "enable-accurate-seek",
+          "value" : "0"
+        },
+        {
+          "category" : 4,
+          "name" : "mediacodec",
+          "value" : "0"
+        },
+        {
+          "category" : 4,
+          "name" : "mediacodec-auto-rotate",
+          "value" : "0"
+        },
+        {
+          "category" : 4,
+          "name" : "mediacodec-handle-resolution-change",
+          "value" : "0"
+        },
+        {
+          "category" : 4,
+          "name" : "mediacodec-hevc",
+          "value" : "0"
+        },
+        {
+          "category" : 1,
+          "name" : "dns_cache_timeout",
+          "value" : "600000000"
+        }
+      ]
+    },
+    {
+      "group" : "硬解码",
+      "options" : [
+        {
+          "category" : 4,
+          "name" : "opensles",
+          "value" : "0"
+        },
+        {
+          "category" : 4,
+          "name" : "overlay-format",
+          "value" : "842225234"
+        },
+        {
+          "category" : 4,
+          "name" : "framedrop",
+          "value" : "1"
+        },
+        {
+          "category" : 4,
+          "name" : "soundtouch",
+          "value" : "1"
+        },
+        {
+          "category" : 4,
+          "name" : "start-on-prepared",
+          "value" : "1"
+        },
+        {
+          "category" : 1,
+          "name" : "http-detect-range-support",
+          "value" : "0"
+        },
+        {
+          "category" : 1,
+          "name" : "fflags",
+          "value" : "fastseek"
+        },
+        {
+          "category" : 2,
+          "name" : "skip_loop_filter",
+          "value" : "48"
+        },
+        {
+          "category" : 4,
+          "name" : "reconnect",
+          "value" : "1"
+        },
+        {
+          "category" : 4,
+          "name" : "enable-accurate-seek",
+          "value" : "0"
+        },
+        {
+          "category" : 4,
+          "name" : "mediacodec",
+          "value" : "1"
+        },
+        {
+          "category" : 4,
+          "name" : "mediacodec-auto-rotate",
+          "value" : "1"
+        },
+        {
+          "category" : 4,
+          "name" : "mediacodec-handle-resolution-change",
+          "value" : "1"
+        },
+        {
+          "category" : 4,
+          "name" : "mediacodec-hevc",
+          "value" : "1"
+        },
+        {
+          "category" : 1,
+          "name" : "dns_cache_timeout",
+          "value" : "600000000"
+        }
+      ]
+    }
+  ],
+  "ads" : []
+}
