@@ -2615,14 +2615,14 @@
     },
     {
       "key" : "玉兔资源",
-      "name" : "玉兔资源(??????)",
+      "name" : "玉兔资源",
       "type" : 1,
       "api" : "https://apiyutu.com/api.php/provide/vod",
       "playerUrl" : ""
     },
     {
       "key" : "金坤资源",
-      "name" : "金坤资源(??????)",
+      "name" : "金坤资源",
       "type" : 0,
       "api" : "https://www.jkunzyapi.com/api.php/provide/vod/at/xml",
       "playerUrl" : ""
@@ -2638,14 +2638,14 @@
     },
     {
       "key" : "越资源云",
-      "name" : "越资源云(??????)",
+      "name" : "越资源云",
       "type" : 0,
       "api" : "https://apilsbzy1.com/api.php/provide/vod/at/xml",
       "playerUrl" : ""
     },
     {
       "key" : "*番号资源",
-      "name" : "??????番号资源",
+      "name" : "番号资源",
       "type" : 1,
       "api" : "http://fhapi9.com/api.php/provide/vod/",
       "searchable" : 0,
