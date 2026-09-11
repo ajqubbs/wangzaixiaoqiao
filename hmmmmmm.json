@@ -3152,7 +3152,7 @@
     },
     {
       "key" : "*KK写真资源",
-      "name" : "APP下载1338.hk",
+      "name" : "写真",
       "type" : 1,
       "api" : "https://kkzy.me/api.php/provide/vod/",
       "searchable" : 0,
